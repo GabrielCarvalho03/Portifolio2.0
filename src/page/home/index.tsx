@@ -166,10 +166,10 @@ export const Home: React.FC = () => {
 
   return (
     <>
-    <div className="w-full ">
+    <div className="w-full overflow-x-hidden">
 
       <div
-        className="w-full h-screen  bg-cover bg-center relative"
+        className="w-full h-screen  bg-cover bg-center relative overflow-hidden "
         style={{ backgroundImage: `url(${background})` }}
         >
         <header className=" w-full flex justify-between items-center px-10 pt-2">
