@@ -3,7 +3,6 @@ import speed from "../../../../assets/svgs/speed.svg";
 import male from "../../../../assets/svgs/male.svg";
 import rocket from "../../../../assets/svgs/rocket.svg";
 import imgScroll from "../../../../assets/imageScroll.jpg";
-import sitesResponsives from "../../../../assets/svgs/sitesResponsives.svg"; 
 import { useEffect } from "react";
 import { gsap } from "gsap";
 

@@ -114,7 +114,7 @@ export const SessionFiver = () => {
         </div>
 
         <div className="BlockGrayBottom h-72 opacity-0 mr-10 bg-gray-900 rounded-tl-3xl rounded-tr-3xl rounded-br-3xl"
-          style={{ width:`${window.innerWidth <= 600 ?'100%': '750px'}`, height:`${window.innerWidth <= 600 && 'auto '}`,  marginLeft:`${window.innerWidth <= 600 && '10%'}`}}
+          style={{ width:`${window.innerWidth <= 600 ?'100%': '750px'}`, height:`${window.innerWidth <= 600 && 'auto '}`,  marginLeft:`${window.innerWidth <= 600 && '10% '}`}}
         >
           <div className=" px-5 py-5 h-full justify-center items-center gap-5">
             <h1 className="text-white pt-10 text-xl">
