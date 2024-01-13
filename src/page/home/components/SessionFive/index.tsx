@@ -14,7 +14,6 @@ export const SessionFiver = () => {
         scale:1,
         duration:0.5,
        scrollTrigger:{
-        markers:true, 
         scrub:1,
         trigger: '#containerFive', 
         start:"top 300",
@@ -27,7 +26,6 @@ export const SessionFiver = () => {
         delay:0.5,
         duration:0.5,
        scrollTrigger:{
-        markers:true, 
         scrub:1,
         trigger: '#containerFive', 
         start:"top 300",
@@ -40,7 +38,6 @@ export const SessionFiver = () => {
         delay:0.8,
         duration:0.5,
        scrollTrigger:{
-        markers:true, 
         scrub:1,
         trigger: '#containerFive', 
         start:"top 300",
@@ -53,7 +50,6 @@ export const SessionFiver = () => {
         delay:0.9,
         duration:0.5,
        scrollTrigger:{
-        markers:true, 
         scrub:1,
         trigger: '#containerFive', 
         start:"top 300",
@@ -66,7 +62,6 @@ export const SessionFiver = () => {
         delay:0.8,
         duration:0.5,
        scrollTrigger:{
-        markers:true, 
         scrub:1,
         trigger: '#containerFive', 
         start:"top 300",
