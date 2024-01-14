@@ -11,7 +11,6 @@ type IProp ={
 
 export const Blubble = ({variant}:IProp) =>{
     useLayoutEffect(() => {
-        const initScrollTrigger = () => {
          gsap.to(".ImgInfo", {
            opacity: 1,
            x: 128,
@@ -32,13 +31,8 @@ export const Blubble = ({variant}:IProp) =>{
             end:"top 200px"
            }
           });
-        };
     
-        window.addEventListener("load", initScrollTrigger);
-    
-        return () => {
-          window.removeEventListener("load", initScrollTrigger);
-        };
+       
       }, []);
 
 if(variant == 'white'){

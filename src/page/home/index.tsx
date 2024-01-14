@@ -19,7 +19,6 @@ export const Home: React.FC = () => {
   gsap.registerPlugin(MotionPathPlugin);
 
   useLayoutEffect(() => {
-    const initScrollTrigger = () => {
       gsap.to(".textHero", {
         opacity: 1,
         y: -50,
@@ -140,13 +139,8 @@ export const Home: React.FC = () => {
           scrub: 1, // Permita que a animação seja proporcional à rolagem
         },
       });
-    };
 
-    window.addEventListener("load", initScrollTrigger);
-
-    return () => {
-      window.removeEventListener("load", initScrollTrigger);
-    };
+    
   }, []);
 
   return (

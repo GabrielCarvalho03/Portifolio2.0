@@ -11,7 +11,6 @@ export const SessionThree = () =>{
   gsap.registerPlugin(ScrollTrigger);
   gsap.registerPlugin(MotionPathPlugin);
    useLayoutEffect(() => {
-      const initScrollTrigger = () => {
         gsap.to(".item1", {
           opacity: 1,
           y: -30,
@@ -45,13 +44,8 @@ export const SessionThree = () =>{
          end:"top 200px"
         }
        });
-      };
   
-      window.addEventListener("load", initScrollTrigger);
-  
-      return () => {
-        window.removeEventListener("load", initScrollTrigger);
-      };
+   
     }, []);
 
     return(

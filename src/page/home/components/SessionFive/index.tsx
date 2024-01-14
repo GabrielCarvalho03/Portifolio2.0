@@ -8,7 +8,6 @@ import stars from "../../../../assets/svgs/stars.svg";
 
 export const SessionFiver = () => {
   useLayoutEffect(() => {
-    const initScrollTrigger = () => {
       gsap.to(".imgHeart", {
         opacity: 1,
         scale:1,
@@ -68,13 +67,8 @@ export const SessionFiver = () => {
         end:"top 200px"
        }
       });
-    };
 
-    window.addEventListener("load", initScrollTrigger);
-
-    return () => {
-      window.removeEventListener("load", initScrollTrigger);
-    };
+   
   }, []);
 
 
