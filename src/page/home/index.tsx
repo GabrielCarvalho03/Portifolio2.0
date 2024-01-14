@@ -82,21 +82,6 @@ export const Home: React.FC = () => {
         delay: 0.7,
         duration:0.5
       });
-      gsap.to(".textHeader1", {
-        opacity: 1,
-        y: 10,
-        delay: 0.7,
-      });
-      gsap.to(".textHeader2", {
-        opacity: 1,
-        y: 10,
-        delay: 0.8,
-      });
-      gsap.to(".textHeader3", {
-        opacity: 1,
-        y: 10,
-        delay: 0.9,
-      });
       gsap.to(".ButtonHero", {
         opacity: 1,
         y: 10,
