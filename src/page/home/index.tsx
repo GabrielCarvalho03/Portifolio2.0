@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import "../../styles/animation.css";
 import { gsap } from "gsap";
 import { MotionPathPlugin, ScrollTrigger } from "gsap/all";
@@ -18,7 +18,7 @@ export const Home: React.FC = () => {
   gsap.registerPlugin(ScrollTrigger);
   gsap.registerPlugin(MotionPathPlugin);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const initScrollTrigger = () => {
       gsap.to(".textHero", {
         opacity: 1,

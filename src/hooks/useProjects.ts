@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useLayoutEffect, useState } from "react";
 import { IProjectType } from "../@types";
 import { api } from "../services/api";
 
@@ -10,7 +10,7 @@ export const useProjects = () => {
       setList(data.data.projects);
     });
   };
-  useEffect(() => {
+  useLayoutEffect(() => {
     getList();
   }, []);
 

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import {  useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import heart from "../../../../assets/svgs/heart.svg";
 import like from "../../../../assets/svgs/like.svg";
@@ -7,7 +7,7 @@ import stars from "../../../../assets/svgs/stars.svg";
 
 
 export const SessionFiver = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     const initScrollTrigger = () => {
       gsap.to(".imgHeart", {
         opacity: 1,

@@ -1,7 +1,7 @@
 
 import verificed from "../assets/verificed.jpg"; 
 import scale from "../assets/svgs/scale.svg"
-import { useEffect } from "react";
+import {useLayoutEffect } from "react";
 import { gsap } from "gsap";
 
 type IProp ={
@@ -10,7 +10,7 @@ type IProp ={
 }
 
 export const Blubble = ({variant}:IProp) =>{
-    useEffect(() => {
+    useLayoutEffect(() => {
         const initScrollTrigger = () => {
          gsap.to(".ImgInfo", {
            opacity: 1,

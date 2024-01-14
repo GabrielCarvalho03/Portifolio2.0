@@ -13,7 +13,6 @@ export const SessionFor = () =>{
           </div>
 
           <Blubble variant="white"/>
-
           <Blubble variant="black"/>
 
 

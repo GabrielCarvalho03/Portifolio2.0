@@ -3,11 +3,14 @@ import speed from "../../../../assets/svgs/speed.svg";
 import male from "../../../../assets/svgs/male.svg";
 import rocket from "../../../../assets/svgs/rocket.svg";
 import imgScroll from "../../../../assets/imageScroll.jpg";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { gsap } from "gsap";
+import { MotionPathPlugin, ScrollTrigger } from "gsap/all";
 
 export const SessionThree = () =>{
-   useEffect(() => {
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(MotionPathPlugin);
+   useLayoutEffect(() => {
       const initScrollTrigger = () => {
         gsap.to(".item1", {
           opacity: 1,
